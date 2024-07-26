@@ -1,0 +1,36 @@
+{
+  "name": "myntra-price-notify",
+  "description": "Notifies when price of a product is less than a certain amount",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "axios": "^1.7.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.19.2",
+    "h2": "^0.3.0",
+    "mysql2": "^3.10.0",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^2.6.0",
+    "nodemailer": "^6.4.11",
+    "pg": "^8.12.0",
+    "puppeteer": "^5.2.1",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhisid1705/myntra_scrape.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Abhisid1705/myntra_scrape.git"
+  },
+  "homepage": "https://github.com/Abhisid1705/myntra_scrape.git"
+}
